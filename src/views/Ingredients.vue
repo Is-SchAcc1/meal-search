@@ -5,7 +5,6 @@ import useAPI from '@/composables/useAPI';
 const { api } = useAPI()
 
 const keyword = ref('')
-
 const ingredients = ref([])
 
 onMounted(() => {
